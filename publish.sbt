@@ -16,6 +16,6 @@ licenses in GlobalScope += "Apache License 2.0" -> url("https://github.com/spray
 
 publishMavenStyle := false
 
-bintrayRepository := "sbt-plugins"
+// bintrayRepository := "sbt-plugins"
 
-bintrayOrganization := None
+// bintrayOrganization := None

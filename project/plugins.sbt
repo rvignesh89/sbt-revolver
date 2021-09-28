@@ -1,5 +1,3 @@
-addSbtPlugin("org.foundweekends" % "sbt-bintray" % "0.5.3")
+libraryDependencies += "org.scala-sbt" %% "scripted-plugin" % "1.5.5"
 
-libraryDependencies += "org.scala-sbt" % "scripted-plugin" % sbtVersion.value
-
-addSbtPlugin("com.jsuereth" % "sbt-pgp" % "1.1.0")
+addSbtPlugin("com.github.sbt" % "sbt-pgp" % "2.1.2")
